@@ -1,0 +1,164 @@
+Step 1: Project Structure
+Create a folder named portfolio_website with the following files:
+portfolio_website/
+|-- index.html
+|-- styles.css
+|-- script.js
+|-- images/
+Step 2: index.html
+Here's the HTML code for the main page (index.html):
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudha Rani Seeli - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sudha Rani Seeli</h1>
+        <p>Software Engineer | Data Analyst | Business Intelligence</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated Software Engineer and Data Analyst with expertise in software development, data analysis, and business intelligence. I bring a unique blend of programming skills, data management, and project management to drive efficiency and strategic growth.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Customer Relationship Management System</h3>
+            <p>Developed a CRM system that improved customer engagement and streamlined sales processes, leading to a 15% increase in lead conversion.</p>
+        </div>
+        <div class="project">
+            <h3>US Traffic Accidents Data Analysis</h3>
+            <p>Created an interactive Power BI dashboard that helped reduce accident rates by 25% through data-driven insights.</p>
+        </div>
+        <div class="project">
+            <h3>Amazon Reviews Rating Prediction</h3>
+            <p>Built a machine learning model using Python, achieving 89% accuracy in predicting review ratings with a Random Forest Classifier.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="experience">
+            <h3>Software Engineer - Persistent Systems</h3>
+            <p>July 2022 - July 2023</p>
+            <ul>
+                <li>Developed software solutions and interactive dashboards to support business operations.</li>
+                <li>Led cross-functional teams and managed projects using Agile methodologies.</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Business Analyst Intern - Persistent Systems</h3>
+            <p>Feb 2022 - July 2022</p>
+            <ul>
+                <li>Streamlined workflows and enhanced automation processes through SQL and other tools.</li>
+                <li>Translated business requirements into actionable technical deliverables.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Data Visualization: Power BI, Tableau</li>
+            <li>Programming: Python, Java, SQL, R</li>
+            <li>Cloud Platforms: AWS, Google Cloud, Azure</li>
+            <li>Project Management: Agile methodologies, Team Leadership</li>
+            <li>Database Management: MySQL, Data Warehousing</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:ssudha@iastate.edu">ssudha@iastate.edu</a></p>
+        <p>LinkedIn: [Include your LinkedIn profile link]</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sudha Rani Seeli. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+Step 3: styles.css
+Here's the CSS to style your website (styles.css):
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    background: #fff;
+    margin: 1rem auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.project, .experience {
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+Step 4: script.js
+Here's a basic JavaScript file for adding interactivity (script.js):
+// You can add interactive scripts here if needed
+console.log("Welcome to Sudha's Portfolio!");
